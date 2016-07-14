@@ -6,7 +6,8 @@ html {
 
 body {
     margin: 0; 
-    padding: 0;
+    /**padding: 0;**/
+    padding-top: 50px;
     border-top: 0px solid transparent;
     background-color: 	#F0F8FF;
 }
@@ -72,6 +73,31 @@ footer {
 
 .layout {
     width: 80%;
-
     margin: 0 auto;
+}
+test ul {
+    list-style-type: none;
+    padding: 0;
+}
+test ul a {
+    text-decoration: none;
+}
+.boxedstretch {
+    background-color: #F0F8FF;
+    width: 100%;
+}
+.boxedcover {
+    background: #00FF00;
+}
+.boxedleft {
+    float:left;
+    background-color: #008B8B;
+    width: 49%;
+    margin-bottom: 10px;
+}
+ .boxedright {
+    float:right;
+    background-color: #A9A9A9;
+    width: 49%;
+    margin-bottom: 20px;
 }
