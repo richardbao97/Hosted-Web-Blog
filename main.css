@@ -1,11 +1,14 @@
 /** #name is for <div id = "name"> ... </div> **/
 html {
     /**Left Blank**/
+
 }
 
 body {
-    /**Left Blank**/
-    margin: 0; padding: 0;
+    margin: 0; 
+    padding: 0;
+    border-top: 0px solid transparent;
+    background-color: 	#F0F8FF;
 }
 
 header {
@@ -27,17 +30,31 @@ in a {
     padding: 14px 16px;
     text-decoration: none;                             
 }
-                                              
-in a:hover {
-    background-color: #111;
+
+inX{
+    float: left;
 }
 
-content {
-    margin-top: 60px;
+inX a {
+    display: block;
+    color: white;
     text-align: center;
-    margin-left: 60px;
-    margin-right: 60px;
+    padding: 14px 16px;
+    text-decoration: none;                             
 }
+                                              
+in a:hover {
+    background-color: #B0C4DE;
+}
+
+#content {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+}
+
 
 footer {
     position: fixed;
@@ -50,6 +67,3 @@ footer {
 .active {
     background-color: #4CAF50;
 }
-
-                                              
-                                              
